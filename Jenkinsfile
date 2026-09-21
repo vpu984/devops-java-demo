@@ -11,7 +11,7 @@ pipeline {
     stages {
 
         // =========================================================
-        // STEP 1 - CHECKOUT CODE FROM GITHUB
+        // STEP 1 - CHECKING OUT CODE FROM GITHUB
         // =========================================================
         stage('1. Checkout') {
             steps {
@@ -26,7 +26,7 @@ pipeline {
 
 
         // =========================================================
-        // STEP 2 - MAVEN BUILD
+        // STEP 2 - MAVEN BUILD START
         // =========================================================
         stage('2. Maven Build') {
             steps {
